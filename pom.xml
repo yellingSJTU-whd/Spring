@@ -13,15 +13,17 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>demo</name>
     <description>demo</description>
+
     <modules>
         <module>Mybatis</module>
         <module>Spring</module>
     </modules>
+
     <properties>
-        <java.version>17</java.version>
+        <java.version>19</java.version>
     </properties>
 
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
     <build>
         <plugins>
